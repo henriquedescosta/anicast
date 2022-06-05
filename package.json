@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": ["anicast-frontend", "anicast-backend"]
+  },
+  "scripts": {
+    "anicast-frontend:dev": "npm workspace anicast-frontend quasar dev",
+    "anicast-backend:dev": "npm workspace anicast-backend start:dev",
+    "anicast-backend:openapi": "npm workspace anicast-backend openapi"
+
+  }
+}
