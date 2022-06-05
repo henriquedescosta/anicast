@@ -1,7 +1,6 @@
-[submodule "frontend"]
-path = anicast-frontend
-https://github.com/henriquedescosta/anicast-frontend.git
-
-[submodule "backend"]
-path = anicast-backend
-https://github.com/henriquedescosta/anicast-backend.git
+[submodule "anicast-frontend"]
+	path = anicast-frontend
+	url = https://github.com/henriquedescosta/anicast-frontend.git
+[submodule "anicast-backend"]
+	path = anicast-backend
+	url = https://github.com/henriquedescosta/anicast-backend.git
