@@ -4,9 +4,10 @@
     "packages": ["anicast-frontend", "anicast-backend"]
   },
   "scripts": {
-    "anicast-frontend:dev": "npm workspace anicast-frontend quasar dev",
-    "anicast-backend:dev": "npm workspace anicast-backend start:dev",
-    "anicast-backend:openapi": "npm workspace anicast-backend openapi"
+    "anicast-frontend:dev": "cd anicast-frontend && quasar dev ",
+    "anicast-backend:dev": "cd anicast-backend && nest start",
+    "anicast-backend:openapi": "cd anicast-backend && npm run openapi:generate",
+    "anicast-frontend:format":"npm run format -w anicast-frontend"
 
   }
 }
